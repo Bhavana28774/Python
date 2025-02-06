@@ -1,3 +1,4 @@
+#opencv-python
 #camera
 import cv2
 cap = cv2.VideoCapture(0)
@@ -13,6 +14,7 @@ else:
 cap.release()
 cv2.destroyAllWindows()
 
+#pyautogui
 #screenshot
 import pyautogui
 
@@ -22,6 +24,7 @@ screenshot.save("screenshot.png")
 
 print("Screenshot saved as screenshot.png")
 
+#SpeechRecognition
 import speech_recognition as sr
 
 recognizer = sr.Recognizer()
